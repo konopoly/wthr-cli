@@ -1,0 +1,32 @@
+{
+  "name": "wthr-cli",
+  "version": "1.0.0",
+  "description": "cli weather forecast tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konopoly/wthr-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "weather",
+    "tool",
+    "forecast",
+    "node"
+  ],
+  "author": "Konstantin Polyashenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konopoly/wthr-cli/issues"
+  },
+  "homepage": "https://github.com/konopoly/wthr-cli#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "geoip-lite": "^1.4.2",
+    "public-ip": "^4.0.1",
+    "tty-table": "^4.1.3"
+  }
+}
